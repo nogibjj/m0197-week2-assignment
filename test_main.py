@@ -1,8 +1,3 @@
-"""
-Test goes here
-
-"""
-
 from src.calculator import add
 
 
