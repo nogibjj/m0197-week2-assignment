@@ -1,5 +1,6 @@
 """
-A function to display descriptive statistics for any file and specified or non specified columns
+A function to display descriptive statistics for any file and specified or
+ non specified columns
 """
 import pandas as pd
 

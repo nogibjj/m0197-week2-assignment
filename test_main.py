@@ -12,8 +12,8 @@ import sys
 def test_no_numeric_columns_message():
     # Redirect standard output to a StringIO buffer
     sys.stdout = StringIO()
-
-    csv_file_path = "datasets/cereal_text_only_columns.csv"  # Replace with the path to your CSV file
+    # Replace with the path to your CSV file
+    csv_file_path = "datasets/cereal_text_only_columns.csv"  
     selected_columns = None
     descriptive_statistics(csv_file_path, selected_columns)
 
