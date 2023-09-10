@@ -15,7 +15,10 @@ def descriptive_statistics(csv_file_path, selected_columns=None):
             numeric_columns = df[selected_columns]
 
         if not numeric_columns.empty:
-            print(numeric_columns.describe())
+            for col in numeric_columns:
+                result = df[col].agg(["mean", "median", "std"])
+                result = result.round(2)
+                print("Mean:", result["mean"], "Median:", result["median"], "SD:", result["std"])
         else:
             print("No numeric columns found in the specified columns.")
 
