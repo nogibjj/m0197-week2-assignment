@@ -19,5 +19,5 @@ Illustrated execution of the tests are below:
 `.devcontainer`
 1. `devcontainer.json` Sets up a development environment. It also includes settings for Docker for VS Code or GitHub Codespace. 
 2. `Dockerfile` Dockerfile set up a development environment with Python 3.8
-3. `Makefile` Streamlines development workflows and ensuring code quality and consistency.
-4. `setup.sh` Activates a virtual environment
+`Makefile` Streamlines development workflows and ensuring code quality and consistency.
+`setup.sh` Activates a virtual environment
