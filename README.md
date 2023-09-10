@@ -22,4 +22,5 @@ Illustrated execution of the tests are below:
 
 
 `Makefile` Streamlines development workflows and ensuring code quality and consistency.
+
 `setup.sh` Activates a virtual environment
