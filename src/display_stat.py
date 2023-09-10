@@ -18,7 +18,8 @@ def descriptive_statistics(csv_file_path, selected_columns=None):
             for col in numeric_columns:
                 result = df[col].agg(["mean", "median", "std"])
                 result = result.round(2)
-                print("Mean:", result["mean"], "Median:", result["median"], "SD:", result["std"])
+                print("Mean:", result["mean"], "Median:", 
+                    result["median"], "SD:", result["std"])
         else:
             print("No numeric columns found in the specified columns.")
 
